@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>Idaho Hospitals: Beds & Drive-time Capacity Zones (Lab 3)</title>
+
+        <!--put your external stylesheet links here-->
+       <link
+         rel="stylesheet"
+         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<link rel="stylesheet" href="css/style.css">
+
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+        
+    </head>
+
+    <body>
+        <h1>Idaho Hospitals: Beds/facility and number of hospital beds within drive-time polygons</h1>
+        <p>
+            Proportional symbols depict hospital locations with beds/facility. <br>
+            Choropleth shows drivetimes around hospitals symbolized on the.<br>
+            total beds reachable within each drive-time area.<br> 
+            Use layer control to choose which layer to view in which pane.<br> 
+            Click features for details.<br>
+        </p>
+
+        <!--put your initial page content here-->
+       <div class="grid">
+         <div id="map1" class="map"></div>
+         <div id="map2" class="map"></div>
+       </div>
+
+
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/WaldrupJLab3.js"></script>
+
+        <!--put your external script links here-->
+        
+    </body>
+</html>

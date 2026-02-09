@@ -1,0 +1,52 @@
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.map{
+  height: 75vh;
+  width: 100%;
+}
+
+
+.legend {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.25);
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.legend h4 {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+}
+
+.legend-circle {
+  display: inline-block;
+  border-radius: 50%;
+  background: rgba(31,120,180,0.8);
+  border: 1px solid #084594;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.legend-box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border: 1px solid #666;
+  vertical-align: middle;
+}
+
+.map{
+  height: 75vh;   /* or 520px */
+  width: 100%;
+  margin: 12px 0;
+}
+
+
