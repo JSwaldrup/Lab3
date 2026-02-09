@@ -73,7 +73,7 @@ function buildMap(divId) {
   }
 
   // Hospitals
-  fetch("data/IdahoHospitals.geojson")
+  fetch("data/idahoHospitals.geojson")
     .then(r => r.json())
     .then(data => {
       hospitalsLayer = L.geoJSON(data, {
@@ -149,4 +149,5 @@ function buildMap(divId) {
 // ✅ Two identical maps (each has both layers)
 buildMap("map1");
 buildMap("map2");
+
 
